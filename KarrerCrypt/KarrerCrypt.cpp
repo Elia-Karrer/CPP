@@ -148,8 +148,8 @@ string decrypt(const string digest, const string key, const int len)
 //Example
 int main()
 {
-    encryptedText = encrypt("TEXT TO ENCRYPT", "YOUR KEY", 12);
-    decryptedText = encrypt(encryptedText, "YOUR KEY", 12);
+    string encryptedText = encrypt("TEXT TO ENCRYPT", "YOUR KEY", 12);
+    string decryptedText = decrypt(encryptedText, "YOUR KEY", 12);
     
     cout << decryptedText << " -> " << encryptedText;
 }
