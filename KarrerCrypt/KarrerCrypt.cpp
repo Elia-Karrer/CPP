@@ -3,11 +3,16 @@
     All rights reserved
     Elia Karrer, 2021
     
-    Examples:
-        Encrypt text:
+    
+    Example:
+        //Encrypt text
             string foo = encrypt("TEXT", "KEY", 12);
-        Decrypt text
+        //Decrypt text
             string bar = decrypt(foo, "KEY", 12);
+        cout << bar;
+    Output:
+        >>> TEXT
+    
     
     3rd parameter "len":
         Small data:         10
@@ -15,6 +20,7 @@
         Extreme Safety:     16
         Maximum:            64
 */
+
 
 #include <iostream>
 using namespace std;
