@@ -8,6 +8,12 @@
             string foo = encrypt("TEXT", "KEY", 12);
         Decrypt text
             string bar = decrypt(foo, "KEY", 12);
+    
+    3rd parameter "len":
+        Small data:         10
+        Allround:           12
+        Extreme Safety:     16
+        Maximum:            64
 */
 
 #include <iostream>
