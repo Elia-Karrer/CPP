@@ -1,3 +1,15 @@
+/**
+    KarrerCrypt in C++
+    All rights reserved
+    Elia Karrer, 2021
+    
+    Examples:
+        Encrypt text:
+            string foo = encrypt("TEXT", "KEY", 12);
+        Decrypt text
+            string bar = decrypt(foo, "KEY", 12);
+*/
+
 #include <iostream>
 using namespace std;
 
