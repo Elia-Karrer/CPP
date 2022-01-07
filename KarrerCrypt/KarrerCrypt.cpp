@@ -4,17 +4,7 @@
     Elia Karrer, 2021
     
     
-    Example:
-        //Encrypt text
-            string foo = encrypt("TEXT", "KEY", 12);
-        //Decrypt text
-            string bar = decrypt(foo, "KEY", 12);
-        cout << bar;
-    Output:
-        >>> TEXT
-    
-    
-    3rd parameter "len":
+    Parameter "len":
         Small data:         10
         Allround:           12
         Extreme Safety:     16
@@ -152,4 +142,14 @@ string decrypt(const string digest, const string key, const int len)
         }
     }
     return output;
+}
+
+
+//Example
+int main()
+{
+    encryptedText = encrypt("TEXT TO ENCRYPT", "YOUR KEY", 12);
+    decryptedText = encrypt(encryptedText, "YOUR KEY", 12);
+    
+    cout << decryptedText << " -> " << encryptedText;
 }
